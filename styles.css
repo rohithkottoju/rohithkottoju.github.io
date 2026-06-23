@@ -532,10 +532,30 @@ ul, ol {
 }
 
 /* ── Skills Section ───────────────────────── */
+.skills-category {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.skills-category:first-of-type {
+  margin-top: 0;
+}
+
+.skills-category-title {
+  font-size: var(--fs-body);
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--divider);
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
+  margin-bottom: 8px;
 }
 
 .skill-card {
